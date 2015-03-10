@@ -1,0 +1,23 @@
+// area.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std; 
+
+
+void main()
+{
+ cout<<"area cuadrado"end;
+ cout<<"introduzca b" end;
+ cout<<"introduzca h" end;
+ cout<<"el area es" end;
+
+ cin>>"b";
+ cin>>"h";
+ cin>>"A<-b*h
+
+
+}
+
