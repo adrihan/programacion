@@ -1,0 +1,44 @@
+Proceso "cuadrado"
+	escribir ("introduzca base ")
+	leer B;
+	escribir ("introduzca altura ")
+	leer H;
+	Area<-B*H
+	escribir ("el area es");Area
+
+FinProceso
+Proceso rectangulo
+	escribir ("introduzca base ")
+	leer B;
+	escribir ("introduzca altura ")
+	leer H;
+	Area<-B*H
+	escribir ("el area es");Area
+
+FinProceso
+
+Proceso triangulo
+	escribir ("introduzca base ")
+	leer B;
+	escribir ("introduzca altura ")
+	leer H;
+	Area<-B*H
+	escribir ("el area es");Area	
+FinProceso
+Proceso cono
+	escribir ("introduzca base ")
+	leer B;
+	escribir ("introduzca altura ")
+	leer H;
+	Area<-B*H
+	escribir ("el area es");Area
+
+FinProceso
+Proceso circunferencia
+	escribir ("introduzca base ")
+	leer B;
+	escribir ("introduzca altura ")
+	leer H;
+	Area<-B*H
+	escribir ("el area es");Area
+FinProceso
