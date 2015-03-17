@@ -1,0 +1,38 @@
+// precios articulos.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <isotream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+	int a,b,c,d;
+	cout<< "ingrese precio del articulo 1"
+	cin>> a;
+	cout<< "ingrese cantidad del articulo 1";
+	cin>> b;
+	cout<< "ingrese precio del articulo 2"
+	cin>> c;
+	cout<< "ingrese cantidad del articulo 2";
+	cin>> d;
+		cout<< "ingrese precio del articulo 3"
+	cin>> e;
+	cout<< "ingrese cantidad del articulo 3";
+	cin>> f;
+		cout<< "ingrese precio del articulo 4"
+	cin>> g;
+	cout<< "ingrese cantidad del articulo 4";
+	cin>> h;
+
+	T=a*b+c*d+e*f+g*h
+	if (T>5)
+		I=T*0.03;
+	else I=0;
+	cout<< "el impuesto a pagar es I"
+	getch ();
+
+}
+
