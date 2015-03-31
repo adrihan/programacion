@@ -1,0 +1,66 @@
+// menu de areas.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+int a,b,r,radio,base,altura,opcion;
+
+do
+{
+cout<< "\t MENU DE AREAS"<<endl;
+cout<<"\t ***************"<<endl;
+cout<<"1.Area de un cuadrado"<<endl;
+cout<<"2.Area de un triangulo"<<endl;
+cout<<"3.Area de un circulo"<<endl;
+cout<<"4. Area de un rectangulo"<<endl;
+cout<<"0.salir"<<endl;
+cout<< "Elige una opcion: "<<endl;
+cin>> opcion;
+
+switch(opcion)
+{
+
+case 1: 
+	cout<<"ingrese base: ";
+	cin>> a;
+	cout<<"ingrese altura: ";
+	cin>> b;
+	r=a+b;
+	cout<<" el resultado es: "<<r<<endl;
+	break;
+case 2: 
+	cout<<"ingrese base: ";
+	cin>>base;
+	cout<<"ingrese altura: ";
+	cin>>altura;
+	r=(a*b)/2;
+	cout<< "el resultado es: "<<r<<endl;
+	break;
+case 3: 
+	cout<<"ingrese radio: ";
+	cin>>radio;
+	r=(3.14*a);
+	cout<<"el resultado es: "<<r<<endl;
+	break;
+case 4: 
+	cout<<"ingrese base: ";
+	cin>>a;
+	cout<<"ingrese altua: ";
+	cin>> b;
+	r=a+b;
+	cout<<"el resultado es: "<<r<<endl;
+	break;
+case 0: 
+	cout<<"opcion invalida"<<endl;break;
+}
+
+}while(opcion!=0);
+getch();
+
+}
