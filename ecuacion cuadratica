@@ -1,0 +1,56 @@
+// ecuacioncuadratica.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+float x1, x2;
+void determinante(float a, float b,float c);
+void reales (float a, float b, float d);
+void imaginarios(float a, float b, float d);
+float unica (float a, float b);
+void main(){
+	float a,b,c,d,x,determinante;
+	cout<<"ingrese el valor de a: ";
+	cin>> a;
+	cout<<" ingrese el valor de b: ";
+	cin>> b;
+	cout<<"ingrese el valor de c: ";
+	cin>> c;
+	d=determinante (a,b,c,d);
+	if(d>0){
+		reales(a,b,c);
+		cout<<"solucion1: "<<x1;
+		cout<<"soluciom2: "<<x2;
+	}
+	else
+		if(d=0){
+			x=unica(a,b);
+			cout<<"solucion unica: "<<x1;
+		}
+		else
+			imaginarios(a,b,c,d);
+	cout<<"solucion1: "<<x1<<"+"<<x2<<"i";
+	cout<<"solucion2: "<<x1<<"-"<<x2<<"i";
+} 
+getch();
+float determinante (float a, float b, float c)
+	float aux;
+aux=pow(b,2)-4*a*c;
+return aux;
+void reales /float a,float b, float c)
+{x1=(-b+sqrt+(d))/(2*a);
+x2=(-b-sqrt+(d))/(2*a);
+}
+void imaginarios(float a,float b, float d)
+{x1=-b/2*a;
+x2=sqrt(-d)/(2*a);
+float unica(float a, float b)
+{
+	floatx;
+	x=-b/(x*a);
+	return x;
