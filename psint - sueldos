@@ -1,0 +1,11 @@
+//hacer un algoritmo que lea 3 notas y que imprima el promedio//
+Proceso sueldos 
+	
+	escribir "ingrese su sueldo: "
+	leer sb
+	iva=(sb*0.13)
+	sl=sb-iva
+    it=(sl*0.03)
+	sn=sl-it
+	escribir "el sueldo liquido es:",sn
+FinProceso
