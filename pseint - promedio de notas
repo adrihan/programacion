@@ -1,0 +1,12 @@
+//hacer un algoritmo que lea 3 notas y que imprima el promedio//
+Proceso pormedio
+	escribir "ingrese la primera nota"
+	leer a
+	escribir "ingrese la segunda nota"
+	leer b
+	escribir "ingrese la tercera nota"
+	leer c
+	n=(a+b+c)/3
+	escribir "el promedio de las notas son: ",n
+	
+FinProceso
