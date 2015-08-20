@@ -1,0 +1,31 @@
+Proceso multiplir
+	Escribir "ingrese el numero"
+	leer n
+	m=n*1
+	a=n*2
+	b=n*3
+	c=n*4
+	d=n*5
+	e=n*6
+	f=n*7
+	g=n*8
+	h=n*9
+	i=n*10
+	escribir "x1:",m
+	escribir "x2:",a
+	escribir "x3:",b
+	escribir "x3:",c
+	escribir "x4:",d
+	escribir "x5:",e
+	escribir "x6:",f
+	escribir "x7:",g
+	escribir "x8:",h
+	escribir "x9:",i
+	
+	
+	
+	Proceso multiplicacion 2
+	leer n
+	i=1
+	escribir n, "x", i, "=", n*i
+	i=i+1
