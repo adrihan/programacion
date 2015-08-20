@@ -1,0 +1,15 @@
+Proceso ejemplo
+	escribir "ingrese sus notas parciales"
+	leer n1, n2, n3
+	p1=((n1+n2+n3)/3)*0.40
+	escribir "ingrese su nota practica"
+	leer np
+	p2=np*0.20
+	escribir "ingrese su nota final"
+	leer nf
+	p3=nf*0.40
+	
+	nf=p1+p2+p3
+	escribir "su nota final es: ",nf
+	
+FinProceso
